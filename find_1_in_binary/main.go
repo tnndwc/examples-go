@@ -8,6 +8,7 @@ import (
 
 func main() {
 	var numArgs = flag.Int("num", 0, "number")
+
 	flag.Parse()
 
 	var num, numOf1 = *numArgs, 0
